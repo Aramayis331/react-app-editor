@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-app-editor/static/css/main.d014cd03.chunk.css",
+    "main.js": "/react-app-editor/static/js/main.1c6cc9db.chunk.js",
+    "main.js.map": "/react-app-editor/static/js/main.1c6cc9db.chunk.js.map",
+    "runtime-main.js": "/react-app-editor/static/js/runtime-main.e346f618.js",
+    "runtime-main.js.map": "/react-app-editor/static/js/runtime-main.e346f618.js.map",
+    "static/css/2.2534d896.chunk.css": "/react-app-editor/static/css/2.2534d896.chunk.css",
+    "static/js/2.1c59f87f.chunk.js": "/react-app-editor/static/js/2.1c59f87f.chunk.js",
+    "static/js/2.1c59f87f.chunk.js.map": "/react-app-editor/static/js/2.1c59f87f.chunk.js.map",
+    "static/js/3.88a7304c.chunk.js": "/react-app-editor/static/js/3.88a7304c.chunk.js",
+    "static/js/3.88a7304c.chunk.js.map": "/react-app-editor/static/js/3.88a7304c.chunk.js.map",
+    "index.html": "/react-app-editor/index.html",
+    "static/css/2.2534d896.chunk.css.map": "/react-app-editor/static/css/2.2534d896.chunk.css.map",
+    "static/css/main.d014cd03.chunk.css.map": "/react-app-editor/static/css/main.d014cd03.chunk.css.map",
+    "static/js/2.1c59f87f.chunk.js.LICENSE.txt": "/react-app-editor/static/js/2.1c59f87f.chunk.js.LICENSE.txt",
+    "static/media/3D_fail.f8b8bf06.svg": "/react-app-editor/static/media/3D_fail.f8b8bf06.svg",
+    "static/media/AddTool.3152887d.svg": "/react-app-editor/static/media/AddTool.3152887d.svg",
+    "static/media/Animacia.191b069a.svg": "/react-app-editor/static/media/Animacia.191b069a.svg",
+    "static/media/Dizayn.9635b4a1.svg": "/react-app-editor/static/media/Dizayn.9635b4a1.svg",
+    "static/media/Polirovka.60a7d784.svg": "/react-app-editor/static/media/Polirovka.60a7d784.svg",
+    "static/media/Rend.a534de2f.svg": "/react-app-editor/static/media/Rend.a534de2f.svg",
+    "static/media/idea_sketch.4bad6ac8.svg": "/react-app-editor/static/media/idea_sketch.4bad6ac8.svg",
+    "static/media/images1.4e916f66.jpg": "/react-app-editor/static/media/images1.4e916f66.jpg",
+    "static/media/images2.ccd2c501.jpg": "/react-app-editor/static/media/images2.ccd2c501.jpg",
+    "static/media/images3.72e666cf.jpg": "/react-app-editor/static/media/images3.72e666cf.jpg",
+    "static/media/images4.da763199.jpg": "/react-app-editor/static/media/images4.da763199.jpg",
+    "static/media/images5.35004c7f.jpg": "/react-app-editor/static/media/images5.35004c7f.jpg",
+    "static/media/images6.3a6afd18.jpg": "/react-app-editor/static/media/images6.3a6afd18.jpg",
+    "static/media/images7.74bac0d8.jpg": "/react-app-editor/static/media/images7.74bac0d8.jpg",
+    "static/media/slick-theme.css": "/react-app-editor/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e346f618.js",
+    "static/css/2.2534d896.chunk.css",
+    "static/js/2.1c59f87f.chunk.js",
+    "static/css/main.d014cd03.chunk.css",
+    "static/js/main.1c6cc9db.chunk.js"
+  ]
+}

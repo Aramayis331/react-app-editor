@@ -1,0 +1,195 @@
+.containerAddElementTool {
+	min-width: 10%;
+}
+.divAddElementTool {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.lineAddTool {
+	position: absolute;
+	top: 55px;
+	left: 0;
+	width: 50%;
+	height: 2px;
+	z-index: 1;
+	background-color: green;
+}
+.divBtnElementTool {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px 0px 21px 0px;
+	cursor: pointer;
+	background-color: green;
+	z-index: 2;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.upload__image-div-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.addElementTool {
+	margin-bottom: 3px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.divimgaddTool {
+	width: 40px;
+	height: 40px;
+}
+.divimgaddTool img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+
+.addToolOff {
+	display: none;
+}
+.addToolOn {
+	background: rgba(000, 000, 000, 0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 500;
+	top: 0px;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.containerForm {
+	border: 2px solid orange;
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	transform: translateY(155px);
+}
+.rowBtnClose {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.divInputTool {
+	width: 40%;
+	margin: 5px 0px;
+	padding: 2px;
+	border-bottom: 1px solid orange;
+}
+.divInputTool input {
+	width: 100%;
+	color: #ffffff;
+	padding: 1px 0px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+}
+.divInputTool input::placeholder {
+	color: #ffffff;
+	font-size: 13px;
+}
+.divBtnContinue {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divBtnSaveImages {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btnSliderSaveImages {
+	border: none;
+	font-size: 14px;
+	font-weight: 700;
+	background-color: red;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 15px;
+	border-radius: 20px;
+	margin: 5px 15px;
+}
+.divBtnContinue button {
+	border: none;
+	font-size: 14px;
+	font-weight: 700;
+	background-color: green;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 15px;
+	border-radius: 20px;
+	margin: 5px 15px;
+}
+@media only screen and (max-width: 1255px) { 
+	.containerForm {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 997px) { 
+	.containerForm {
+		width: 58%;
+	}
+}
+@media only screen and (max-width: 767px) { 
+	.divimgaddTool {
+		width: 30px;
+		height: 30px;
+	}
+	.lineAddTool {
+		top: 42px;
+	}
+	.divBtnElementTool {
+		width: 15px;
+		height: 15px;
+		margin: 5px 0px 17px 0px;
+	}
+	.addElementTool {
+		margin-bottom: 2px;
+		font-weight: 700;
+		font-size: 15px;
+	}
+
+
+	.divBtnContinue button {
+		font-size: 11px;
+		padding: 5px 12px;
+		margin: 5px 10px;
+	}
+	.btnSliderSaveImages {
+		font-size: 11px;
+		padding: 5px 12px;
+		margin: 10px 5px 5px 5px;
+	}
+	.containerForm {
+		width: 60%;
+	}
+	.divInputTool input::placeholder {
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width: 580px) { 
+	.containerForm {
+		width: 70%;
+	}
+	.upload__image-div-btn {
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 415px) { 
+	.containerForm {
+		width: 90%;
+	}
+}

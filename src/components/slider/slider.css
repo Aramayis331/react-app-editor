@@ -1,0 +1,42 @@
+.sliderContainer {
+	margin-top: 50px;
+}
+.slick-slide {
+	margin: 0px;
+}
+.sliderImg {
+	width: 90%;
+	height: 250px;
+	border: 2px solid #000000;
+	display: block;
+	margin:  auto;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.slick-prev {
+	z-index: 100;
+	left: 20px !important;
+}
+.slick-next {
+	z-index: 100;
+	right: 20px !important;
+}
+
+
+
+@media only screen and (max-width: 480px) { 
+	.sliderImg {
+		width: 98%; 	
+	}
+
+
+}
+
+@media only screen and (max-width: 840px) { 
+	.sliderImg {
+		height: 200px;
+	}
+	.sliderContainer {
+		margin-top: 15px;
+	}
+}

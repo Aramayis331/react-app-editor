@@ -1,0 +1,100 @@
+.containerUpload {
+	width: 100%;
+
+}
+.image-item {
+	display: flex;
+	margin: 10px;
+	border: 2px solid orange;
+	padding: 10px;
+}
+.image-item  img {
+	cursor: pointer;
+	border: 2px solid #ffffff;
+}
+.image-item__btn-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 10px;
+}
+.divItem {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.divBtnContinue {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btnSlider {
+	border: none;
+	font-size: 14px;
+	font-weight: 700;
+	background-color: orange;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 15px;
+	border-radius: 20px;
+	margin: 5px 15px;
+}
+.upload__image-div-btnSlider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@media only screen and (max-width: 1255px) { 
+	.containerFormSlider {
+		width: 45%;
+	}
+}
+@media only screen and (max-width: 997px) { 
+	.containerFormSlider {
+		width: 58%;
+	}
+}
+@media only screen and (max-width: 767px) {  
+	.btnSlider {
+		font-size: 11px;
+		padding: 5px 12px;
+		margin: 5px 10px;
+	}
+
+
+	.containerFormSlider {
+		width: 60%;
+	}
+	.divInputTool input::placeholder {
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width: 580px) { 
+	.containerFormSlider {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 478px) { 
+	.containerFormSlider {
+		width: 81%;
+	}
+}
+@media only screen and (max-width: 415px) { 
+	.containerFormSlider {
+		width: 90%;
+	}
+}
+@media only screen and (max-width: 374px) { 
+	.containerFormSlider {
+		width: 95%;
+	}
+	.btnSlider {
+		padding: 5px 7px;
+		margin: 5px 7px;
+	}
+}

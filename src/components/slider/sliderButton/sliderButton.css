@@ -1,0 +1,120 @@
+.divAddItemSliderButton {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.addItemSlider {
+	border: none;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: orange;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 15px;
+	border-radius: 20px;
+	margin: 10px 0px;
+}
+
+.addFormItemSliderOff {
+	display: none;
+}
+.addFormItemSliderOn {
+	background: rgba(000, 000, 000, 0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 500;
+	top: 0px;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.containerFormSlider {
+	border: 2px solid orange;
+	width: 35%;
+	transform: translateY(155px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.rowBtnClose {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.divBtnCloseSlider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: orange;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin: 5px;
+}
+.divBtnCloseSlider span {
+	color: #ffffff;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+.divInputSlider {
+	width: 70%;
+	margin: 5px 0px;
+	padding: 2px;
+	border-bottom: 1px solid orange;
+}
+.divInputSlider input {
+	width: 100%;
+	color: #ffffff;
+	padding: 1px 0px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+}
+.divInputSlider input::placeholder {
+	color: #ffffff;
+	font-size: 13px;
+}
+
+
+
+@media only screen and (max-width: 767px) { 
+	.divBtnCloseSlider {
+		width: 20px;
+		height: 20px;
+	}
+	.divBtnCloseSlider span {
+		font-size: 13px;
+	}
+	.containerFormSlider {
+		width: 50%;
+	}
+	.addItemSlider {
+		font-size: 14px;
+		padding: 5px 10px;
+	}
+
+
+
+}
+@media only screen and (max-width: 580px) { 
+	.containerFormSlider {
+		width: 70%;
+	}
+}
+@media only screen and (max-width: 415px) { 
+	.containerFormSlider {
+		width: 90%;
+	}
+	.addItemSlider {
+		font-size: 13px;
+		padding: 3px 10px;
+	}
+}
